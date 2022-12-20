@@ -12,4 +12,4 @@ base_credit=pd.read_csv('pre-processamento/credit_risk_dataset.csv')
 #print(base_credit.describe())
 
 
-print(base_credit[base_credit['person_income'] >= 69995.685578])
+print(sns.countplot(x=base_credit['loan_status']))
